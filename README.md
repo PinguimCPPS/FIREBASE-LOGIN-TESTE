@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-"# FIREBASE-LOGIN-TESTE" 
+
 =======
 # Login com Google + Firebase Authentication em React Native
 
@@ -188,28 +187,3 @@ diferentes e igualmente confusos.
 
 ---
 
-## 5. Erros mais comuns
-
-| Sintoma | Causa provável |
-|---|---|
-| `DEVELOPER_ERROR` | SHA-1 não cadastrado ou nome do pacote divergente |
-| `idToken` vem `undefined` | `webClientId` ausente ou do tipo errado (use o `client_type: 3`) |
-| App volta deslogado após reabrir | `getAuth()` no lugar de `initializeAuth` com `AsyncStorage` |
-| Login entra sempre na mesma conta | faltou `GoogleSignin.signOut()` no logout |
-| `PLAY_SERVICES_NOT_AVAILABLE` | emulador sem Google Play |
-| Erro de módulo nativo ao abrir | rodando no Expo Go em vez de *development build* |
-
----
-
-## 6. Exercícios propostos
-
-1. Exibir a data do último acesso usando `usuario.metadata.lastSignInTime`.
-2. Bloquear o acesso a contas fora do domínio `@iftm.edu.br`, encerrando a
-   sessão e avisando o usuário quando o e-mail não corresponder.
-3. Gravar, no Firestore, um documento na coleção `usuarios` com o `uid` como
-   identificador, criado no primeiro login e atualizado nos seguintes.
-4. Acrescentar o login anônimo (`signInAnonymously`) e, depois, vincular a conta
-   Google à sessão anônima com `linkWithCredential`, preservando os dados.
-5. Extrair a lógica de sessão para um *hook* `useAutenticacao()` que devolva
-   `{ usuario, verificando, entrar, sair, erro }`, e simplificar `App.js`.
->>>>>>> d7754ea73c6fdacc8c1c7d9e9604491d517bce6d
