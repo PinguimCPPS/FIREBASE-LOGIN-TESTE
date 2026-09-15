@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301716797989",
+    "project_id": "monitorizador",
+    "storage_bucket": "monitorizador.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301716797989:android:c5e19ab383646fed1fddcc",
+        "android_client_info": {
+          "package_name": "com.iftm.monitorizador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301716797989-0afm462ml29ofs55ui7odufekuj28umt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrhcY8TuaqzszL6oUcW7zX6duLVN98YrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301716797989-0afm462ml29ofs55ui7odufekuj28umt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
